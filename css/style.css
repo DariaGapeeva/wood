@@ -295,8 +295,8 @@ h6 {
 }
 
 .mainblock {
-  background: url("./../../img/mainblock/Clip.png") left/50% 100% no-repeat,
-    url("./../../img/mainblock/woodertexture.png") right/50% 100% no-repeat,
+  background: url("./../img/mainblock/Clip.png") left/50% 100% no-repeat,
+    url("./../img/mainblock/woodertexture.png") right/50% 100% no-repeat,
     rgba(0, 0, 0, 0.9);
   padding: 0px 30px 0px 30px;
   display: -webkit-box;
