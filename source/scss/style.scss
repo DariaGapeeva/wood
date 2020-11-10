@@ -164,8 +164,8 @@ $white: #ffffff;
 }
 
 .mainblock {
-  background: url("wooder/img/mainblock/clip.png") left / 50% 100% no-repeat,
-    url("wooder/img/mainblock/woodertexture.png") right / 50% 100% no-repeat,
+  background: url("/img/mainblock/clip.png") left / 50% 100% no-repeat,
+    url("/img/mainblock/woodertexture.png") right / 50% 100% no-repeat,
     rgba(0, 0, 0, 0.9);
   padding: 0px 30px 0px 30px;
   display: flex;
@@ -682,7 +682,7 @@ $white: #ffffff;
   }
 }
 .video {
-  background: url("wooder/img/video/Clip.png") 0 0/100% 100% no-repeat,
+  background: url("/img/video/Clip.png") 0 0/100% 100% no-repeat,
     rgba(0, 0, 0, 0.9);
   padding: 200px 0px 250px 0px;
   @media (max-width: $md2+px) {
@@ -713,7 +713,7 @@ $white: #ffffff;
     span {
       position: relative;
       &:after {
-        content: url("wooder/img/icons/player6.png");
+        content: url("/img/icons/player6.png");
         position: absolute;
         top: -27%;
         left: -50%;
@@ -763,7 +763,7 @@ $white: #ffffff;
 }
 
 .footer {
-  background: url("wooder/img/footer/Clip.png") 0 0 / auto 100% no-repeat,
+  background: url("/img/footer/Clip.png") 0 0 / auto 100% no-repeat,
     rgba(0, 0, 0, 0.9);
 
   &__row {
