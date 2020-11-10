@@ -88,6 +88,14 @@ $white: #ffffff;
       background-color: $gold;
       bottom: 10px;
       left: 70px;
+      @media (max-width: $md3+px) {
+        bottom: 7px;
+        left: 50px;
+      }
+      @media (max-width: $md4+px) {
+        bottom: 2px;
+        left: 22px;
+      }
     }
     span {
       background-color: $gold;
